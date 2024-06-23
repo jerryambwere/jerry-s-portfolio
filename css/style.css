@@ -1,0 +1,61 @@
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+</style>
+.header{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.info {   
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+  background-color: black;
+  align-items: center;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWR1Y2F0aW9uJTIwcGhvdG9zfGVufDB8fDB8fHww);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px;
+  transition: background-image 5s ease-in-out;
+  font-size: larger;
+  font-weight: 700px;
+  font-family: "Lilita One", sans-serif;
+}
+
+body:hover {
+  background-image: url(https://images.unsplash.com/photo-1614332243412-00e687d0c898?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWR1Y2F0aW9uJTIwZ3JleSUyMHBob3Rvc3xlbnwwfHwwfHx8MA%3D%3D);
+}
+
+.contact {
+  color: white;
+  padding: 20px;
+}
+
+.fa-house {
+  color: white;
+  border-left: 5px solid black;
+
+}
+
+.projects{
+    border: 5px solid black ;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: groove;
+    border-color: antiquewhite;
+    
+}
+
+.fa-brands fa-html5{
+display: flex;justify-content: space-between;
+}
